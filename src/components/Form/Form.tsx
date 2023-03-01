@@ -1,4 +1,4 @@
-import {Button, TextInput} from '@gravity-ui/uikit';
+import {Button, HelpPopover, TextInput} from '@gravity-ui/uikit';
 import React from 'react';
 
 import Options from '../Options';
@@ -38,6 +38,7 @@ export const Form = (props: {
             >
                 Trim
             </Button>
+            <HelpPopover content={'Trims the scheme and domain from URL'} />
         </div>
     </form>
 );
