@@ -2,6 +2,8 @@
 
 This is a helper app designed for the Business Secrets development team, created by khizrim. The app is constantly evolving with new features being added over time.
 
+https://khizrim.github.io/business-secrets-helper/
+
 ## Installation
 
 To install the app, clone the repository and navigate to the project directory. Run the following command to install the necessary dependencies:
