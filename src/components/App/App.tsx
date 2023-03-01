@@ -1,6 +1,9 @@
 import {ThemeProvider} from '@gravity-ui/uikit';
 import React from 'react';
 
+import Header from '../Header';
+import LinkGenerator from '../LinkGenerator';
+
 import styles from './App.module.css';
 
 export const App = () => {
@@ -8,7 +11,8 @@ export const App = () => {
         <ThemeProvider>
             <div className={styles.app}>
                 <div className={styles.container}>
-                    <h1>Business Secrets Helper App</h1>
+                    <Header />
+                    <LinkGenerator />
                 </div>
             </div>
         </ThemeProvider>
