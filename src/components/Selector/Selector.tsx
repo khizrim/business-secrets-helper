@@ -1,4 +1,4 @@
-import {Select, SelectOption, SelectOptionGroup, Text} from '@gravity-ui/uikit';
+import {Select, SelectOption, SelectOptionGroup} from '@gravity-ui/uikit';
 import React from 'react';
 
 import styles from './Selector.module.css';
@@ -22,10 +22,11 @@ export const Selector = ({
 }: SelectorProps) => {
     return (
         <div className={styles.selector}>
-            <Text>{label}</Text>
             <Select
                 value={value}
-                placeholder={placeholder}
+                label={label || ''}
+                size={'xl'}
+                placeholder={placeholder || ''}
                 options={options}
                 onUpdate={onUpdate}
                 multiple={multiple}

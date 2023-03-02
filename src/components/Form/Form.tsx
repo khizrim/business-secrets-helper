@@ -1,4 +1,4 @@
-import {Button, HelpPopover, TextInput} from '@gravity-ui/uikit';
+import {Button, TextInput} from '@gravity-ui/uikit';
 import React from 'react';
 
 import Options from '../Options';
@@ -20,7 +20,14 @@ export const Form = (props: {
             value={props.target}
             onUpdate1={props.onLinksSelect}
         />
-        <TextInput minRows={10} multiline hasClear value={props.links} onChange={props.onChange} />
+        <TextInput
+            size={'xl'}
+            minRows={10}
+            multiline
+            hasClear
+            value={props.links}
+            onChange={props.onChange}
+        />
         <div className={styles.buttons}>
             <Button
                 size="xl"
@@ -38,7 +45,6 @@ export const Form = (props: {
             >
                 Trim
             </Button>
-            <HelpPopover content={'Trims the scheme and domain from URL'} />
         </div>
     </form>
 );

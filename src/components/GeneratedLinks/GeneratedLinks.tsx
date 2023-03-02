@@ -1,5 +1,5 @@
 import {ArrowUpRightFromSquare, Xmark} from '@gravity-ui/icons';
-import {Button, ClipboardButton, Icon, Link, List} from '@gravity-ui/uikit';
+import {Button, ClipboardButton, Icon, Link, List, Text} from '@gravity-ui/uikit';
 import React from 'react';
 
 import styles from './GeneratedLinks.module.css';
@@ -12,7 +12,7 @@ export const GeneratedLinks = (props: {
     const renderLink = (link: string) => (
         <div className={styles.link}>
             <Link href={link} target={'_blank'}>
-                {link}
+                <Text variant={'body-2'}>{link}</Text>
             </Link>
             <ClipboardButton size={16} text={link} />
         </div>
@@ -22,7 +22,17 @@ export const GeneratedLinks = (props: {
         <div className={styles.generatedLinks}>
             {Boolean(props.items.length) && (
                 <>
-                    <List items={props.items} renderItem={renderLink} />
+                    <List
+                        className={styles.list}
+                        filterClassName={styles.filter}
+                        itemsClassName={styles.items}
+                        itemClassName={styles.item}
+                        virtualized={false}
+                        filterPlaceholder={'Filter urls'}
+                        size={'xl'}
+                        items={props.items}
+                        renderItem={renderLink}
+                    />
                     <div className={styles.buttons}>
                         <Button size="xl" onClick={props.onClick}>
                             Open all urls

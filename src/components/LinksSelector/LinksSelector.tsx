@@ -12,9 +12,8 @@ export const LinksSelector = ({
 }) => {
     return (
         <Selector
-            label="Use preselected links:"
+            label={'Links'}
             value={value}
-            placeholder="List"
             options={LANDINGS}
             multiple={true}
             onUpdate={onUpdate}
