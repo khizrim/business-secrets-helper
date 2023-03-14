@@ -44,7 +44,7 @@ export const LinkGenerator = () => {
                     setValue(e);
                 }}
                 target={value}
-                onLinksSelect={(e: string[]) => setTextInputValue(e.join(''))}
+                onLinksSelect={(e: string[]) => setTextInputValue(e.join('\n'))}
                 links={textInputValue}
                 onChange={handleTextInputChange}
                 onClick={handleTrim}

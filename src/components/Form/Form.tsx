@@ -16,9 +16,9 @@ export const Form = (props: {
 }) => (
     <form className={styles.form} onSubmit={props.onSubmit}>
         <Options
-            onUpdate={props.onTargetSelect}
             value={props.target}
-            onUpdate1={props.onLinksSelect}
+            onTargetUpdate={props.onTargetSelect}
+            onLinksUpdate={props.onLinksSelect}
         />
         <TextInput
             size={'xl'}
