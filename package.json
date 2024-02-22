@@ -20,7 +20,7 @@
     "lint:js": "eslint --ext .js,.jsx,.ts,.tsx .",
     "lint:styles": "stylelint '{styles,src}/**/*.css'",
     "lint:prettier": "prettier --check '**/*.md'",
-    "lint": "npm run lint:js && npm run lint:styles && npm run lint:prettier"
+    "lint": "pnpm lint:js && pnpm lint:styles && pnpm lint:prettier"
   },
   "eslintConfig": {
     "extends": [
