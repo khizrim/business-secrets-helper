@@ -1,4 +1,4 @@
-import {Button, TextInput} from '@gravity-ui/uikit';
+import {Button, TextArea} from '@gravity-ui/uikit';
 import React from 'react';
 
 import Options from '../Options';
@@ -20,14 +20,7 @@ export const Form = (props: {
             onTargetUpdate={props.onTargetSelect}
             onLinksUpdate={props.onLinksSelect}
         />
-        <TextInput
-            size={'xl'}
-            minRows={10}
-            multiline
-            hasClear
-            value={props.links}
-            onChange={props.onChange}
-        />
+        <TextArea size={'xl'} minRows={10} hasClear value={props.links} onChange={props.onChange} />
         <div className={styles.buttons}>
             <Button
                 size="xl"

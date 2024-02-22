@@ -26,6 +26,7 @@ export const Selector = ({
                 value={value}
                 label={label || ''}
                 size={'xl'}
+                width={250}
                 placeholder={placeholder || ''}
                 options={options}
                 onUpdate={onUpdate}

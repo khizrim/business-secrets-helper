@@ -6,13 +6,13 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "@types/node": "^16.18.12",
-    "@types/react": "^18.0.28",
-    "@types/react-dom": "^18.0.11",
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.57",
+    "@types/react-dom": "^18.2.19",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "typescript": "^4.9.5"
+    "typescript": "^5.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -40,15 +40,15 @@
     ]
   },
   "devDependencies": {
-    "@gravity-ui/eslint-config": "^2.0.0",
-    "@gravity-ui/icons": "^1.1.0",
-    "@gravity-ui/prettier-config": "^1.0.1",
-    "@gravity-ui/stylelint-config": "^2.0.0",
+    "@gravity-ui/eslint-config": "^3.1.1",
+    "@gravity-ui/icons": "^2.8.1",
+    "@gravity-ui/prettier-config": "^1.1.0",
+    "@gravity-ui/stylelint-config": "^4.0.1",
     "@gravity-ui/tsconfig": "^1.0.0",
-    "@gravity-ui/uikit": "^4.0.7",
-    "eslint": "^8.35.0",
-    "prettier": "^2.8.4",
-    "stylelint": "^14.16.1",
-    "typescript-plugin-css-modules": "^4.2.2"
+    "@gravity-ui/uikit": "^6.1.0",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5",
+    "stylelint": "^16.2.1",
+    "typescript-plugin-css-modules": "^5.1.0"
   }
 }

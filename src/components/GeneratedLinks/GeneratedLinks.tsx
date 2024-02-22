@@ -14,7 +14,7 @@ export const GeneratedLinks = (props: {
             <Link href={link} target={'_blank'}>
                 <Text variant={'body-2'}>{link}</Text>
             </Link>
-            <ClipboardButton size={16} text={link} />
+            <ClipboardButton size={'l'} text={link} />
         </div>
     );
 
@@ -41,7 +41,7 @@ export const GeneratedLinks = (props: {
                         <Button size="xl" onClick={props.onReset}>
                             <Icon data={Xmark} />
                         </Button>
-                        <ClipboardButton size={18} text={props.items.join('\n')} />
+                        <ClipboardButton size={'xl'} text={props.items.join('\n')} />
                     </div>
                 </>
             )}
