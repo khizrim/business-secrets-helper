@@ -1,3 +1,3 @@
-import {LinkGenerator} from './LinkGenerator';
+import { LinkGenerator } from "./LinkGenerator";
 
 export default LinkGenerator;

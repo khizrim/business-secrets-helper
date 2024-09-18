@@ -1,22 +1,20 @@
-import React from 'react';
-
-import {LANDINGS} from '../../constants/landings';
-import Selector from '../Selector';
+import { LANDINGS } from "../../constants/landings";
+import Selector from "../Selector";
 
 export const LinksSelector = ({
-    value,
-    onUpdate,
+  value,
+  onUpdate,
 }: {
-    value?: string[];
-    onUpdate: (e: string[]) => void;
+  value?: string[];
+  onUpdate: (e: string[]) => void;
 }) => {
-    return (
-        <Selector
-            label={'Links'}
-            value={value}
-            options={LANDINGS}
-            multiple={true}
-            onUpdate={onUpdate}
-        />
-    );
+  return (
+    <Selector
+      label={"Links"}
+      value={value}
+      options={LANDINGS}
+      multiple={true}
+      onUpdate={onUpdate}
+    />
+  );
 };

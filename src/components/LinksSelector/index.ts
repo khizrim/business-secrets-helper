@@ -1,3 +1,3 @@
-import {LinksSelector} from './LinksSelector';
+import { LinksSelector } from "./LinksSelector";
 
 export default LinksSelector;

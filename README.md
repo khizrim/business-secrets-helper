@@ -9,7 +9,7 @@ https://khizrim.github.io/business-secrets-helper/
 To install the app, clone the repository and navigate to the project directory. Run the following command to install the necessary dependencies:
 
 ```shell
-npm install
+pnpm install
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ npm install
 To start the app, run the following command:
 
 ```shell
-npm start
+pnpm start
 ```
 
 This will start the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits.
@@ -25,7 +25,7 @@ This will start the app in development mode. Open [http://localhost:3000](http:/
 To build the app for production, run the following command:
 
 ```shell
-npm run build
+pnpm run build
 ```
 
 This will create an optimized production build in the `build` folder.
@@ -53,7 +53,7 @@ The app follows a consistent code style enforced by ESLint and Prettier. The con
 To run the ESLint and Prettier checks, use the following command:
 
 ```shell
-npm run lint
+pnpm run lint
 ```
 
 This will run ESLint and Stylelint checks, as well as Prettier checks on all `.md` files. If there are any errors, they will be displayed in the console.

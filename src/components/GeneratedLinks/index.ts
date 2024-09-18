@@ -1,3 +1,3 @@
-import {GeneratedLinks} from './GeneratedLinks';
+import { GeneratedLinks } from "./GeneratedLinks";
 
 export default GeneratedLinks;

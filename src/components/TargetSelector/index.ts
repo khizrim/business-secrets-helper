@@ -1,3 +1,3 @@
-import {TargetSelector} from './TargetSelector';
+import { TargetSelector } from "./TargetSelector";
 
 export default TargetSelector;
