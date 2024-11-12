@@ -3,9 +3,15 @@ export const TARGET_SITES = [
     label: "Wordpress",
     options: [
       { content: "WP Dev", value: "http://localhost:3000" },
-      { content: "WP Staging", value: "https://secrets-wp.dev-tcsgroup.io" },
+      { content: "WP Staging", value: "https://wp.bs-stage.tcsbank.ru" },
       { content: "WP Prod", value: "https://secrets-wp.tcsgroup.io" },
     ],
+  },
+  {
+    label: "Persephone",
+    options: [
+      { content: "Persephone Staging", value: "https://bs-stage.tcsbank.ru/persephone" },
+    ]
   },
   {
     label: "Facade",
@@ -13,7 +19,7 @@ export const TARGET_SITES = [
       { content: "Facade Dev", value: "http://localhost:3001" },
       {
         content: "Facade Staging",
-        value: "https://secrets.tj-bs.internal.ya-ruc1-dev1.dev.k8s.tcsbank.ru",
+        value: "https://bs-stage.tcsbank.ru",
       },
       { content: "Facade Prod", value: "https://secrets.tinkoff.ru" },
     ],
