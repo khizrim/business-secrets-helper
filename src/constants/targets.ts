@@ -4,7 +4,7 @@ export const TARGET_SITES = [
     options: [
       { content: "WP Dev", value: "http://localhost:3000" },
       { content: "WP Staging", value: "https://wp.bs-stage.tcsbank.ru" },
-      { content: "WP Prod", value: "https://secrets-wp.tcsgroup.io" },
+      { content: "WP Prod", value: "https://wp.secrets.tinkoff.ru" },
     ],
   },
   {
