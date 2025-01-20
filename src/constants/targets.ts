@@ -4,7 +4,7 @@ export const TARGET_SITES = [
     options: [
       { content: "WP Dev", value: "http://localhost:3000" },
       { content: "WP Staging", value: "https://wp.bs-stage.tcsbank.ru" },
-      { content: "WP Prod", value: "https://wp.secrets.tinkoff.ru" },
+      { content: "WP Prod", value: "https://wp.secrets.tbank.ru" },
     ],
   },
   {
@@ -21,7 +21,7 @@ export const TARGET_SITES = [
         content: "Facade Staging",
         value: "https://bs-stage.tcsbank.ru",
       },
-      { content: "Facade Prod", value: "https://secrets.tinkoff.ru" },
+      { content: "Facade Prod", value: "https://secrets.tbank.ru" },
     ],
   },
 ];
